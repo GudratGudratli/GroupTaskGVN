@@ -1,0 +1,60 @@
+header{
+    background-color: aliceblue;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+.header-line a{
+  text-decoration: none;
+  color: black;
+}
+.header-line{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+.home, .about, .pricing{
+  margin-right: 70px;
+}
+.pricing{
+  border-bottom: 2px solid!important;
+}
+.header-line a:hover{
+  border-bottom: 1px solid;
+}
+.phlosophy{
+  background-color: rgb(1, 6, 48);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.phlosophy button{
+  border-color: white;
+}
+.phlosophy h2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+footer{
+  padding-top: 75px;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;    
+}
+footer p{
+  margin-top: 20px;
+}
+button{
+  background-color: rgb(1, 6, 48);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 85px;
+}
+button:hover{
+  background-color: rgb(47, 47, 63);
+}
